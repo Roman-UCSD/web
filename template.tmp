@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Roman Gerasimov</title>
+		<title>[TITLE]</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -31,17 +31,7 @@
 									</ul>
 								</header>
 
-								<section>
-	<header class="main">
-		<h1>Title</h1>
-	</header>
-	<header class="major">
-		<h2>Subtitle</h2>
-	</header>
-	<div class="content">
-		Here goes nothing!
-	</div>
-</section>
+								[CONTENT]
 
 						</div>
 					</div>
@@ -60,7 +50,7 @@
 									<header class="major">
 										<h2>Menu</h2>
 									</header>
-									<ul><li><a href="./">Home</a></li><li><span class="opener">Research</span><ul><li><a href="./globs.html">Globular clusters</a></li><li><a href="./popIII.html">First stars</a></li><li><a href="./qg.html">Quantum gravity</a></li></ul><li><a href="./models.html">Models</a></li><li><a href="./eheu.html">Standard chemistry</a></li><li><a href="./cv.html">Curriculum vitae</a></li></ul>
+									[MENU]
 								</nav>
 
 						</div>
