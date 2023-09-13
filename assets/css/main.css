@@ -2290,3 +2290,21 @@ button,
 	border-radius: 50% !important;
 	border: 10px solid #f1ebf1;
 }
+
+.figure {
+	margin: 0 auto 0 auto;
+	width: 90%;
+}
+
+.figure > img.image {
+	margin: 0 0 5px 0;
+}
+
+.caption {
+	margin-top: -3px;
+	color: #6b034e;
+	margin-bottom: 10px;
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+}
