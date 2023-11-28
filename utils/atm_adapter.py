@@ -17,16 +17,13 @@ import datetime, time
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
 
-import sys
-sys.path.append(script_dir + '/../../CoolStar/HRFIT/')
-sys.path.append(script_dir + '/../../CoolStar/BasicATLAS/')
 import HR, atlas
 
 from astropy.io import fits
 
 
 chemical_symbols = {el.number: el.symbol for el in list(periodictable.elements)[1:]}
-standard_abundances = np.loadtxt(script_dir + '/../../CoolStar/BasicATLAS/data/solar.csv', delimiter = ',', unpack = True, dtype = str, usecols = [0, 1, 2, 3, 4])
+standard_abundances = np.loadtxt(atlas.python_path + '/data/solar.csv', delimiter = ',', unpack = True, dtype = str, usecols = [0, 1, 2, 3, 4])
 
 
 def get_phoenix_time(model):
